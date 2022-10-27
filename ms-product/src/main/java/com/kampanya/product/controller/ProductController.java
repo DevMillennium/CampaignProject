@@ -20,8 +20,10 @@ public class ProductController {
 
 
     @PostMapping("add")
-    public void add(@RequestBody Product product) {
+    public ResponseEntity<Product> add(@RequestBody Product product) {
+
 
         this.productService.add(product);
+        return ResponseEntity.ok(product);
     }
 }

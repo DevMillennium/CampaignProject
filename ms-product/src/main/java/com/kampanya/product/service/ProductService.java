@@ -16,7 +16,7 @@ public class ProductService {
 
     public void add(Product product){
         System.out.println(product.getName());
-        this.productRepository.save(product);
+         this.productRepository.save(product);
     }
 
 
