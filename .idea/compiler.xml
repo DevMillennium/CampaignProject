@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ms-favorite" />
         <module name="ms-product" />
+        <module name="eureka-server" />
       </profile>
     </annotationProcessing>
   </component>
