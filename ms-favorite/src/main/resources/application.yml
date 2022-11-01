@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: favorite
+  datasource:
+    username: 'kampanya'
+    url: jdbc:postgresql://localhost:5432/favorite
+    password: 'password123'
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: 'true'
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
